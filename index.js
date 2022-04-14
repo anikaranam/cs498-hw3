@@ -5,9 +5,9 @@ const app = express();
 app.use(bodyParser.json());
 app.get('/lengthCounts', (req, res) => {
         try {
-                const part1 = fs.readFileSync("./output/part-00000", 'utf8');
+                const part1 = fs.readFileSync("./output2/part-00000", 'utf8');
                 console.log(part1);
-                const part2 = fs.readFileSync("./output/part-00001", 'utf8');
+                const part2 = fs.readFileSync("./output2/part-00001", 'utf8');
                 console.log(part2);
                 String.prototype.tuple = function(){
                          return eval(this.replace(/\(/g,"[").replace(/\)/g,"]"))
