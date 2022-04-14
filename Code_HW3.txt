@@ -1,1 +1,2 @@
-my code is in index.js and sparktest.py
+code for part 2 is in sparktest2.py
+code for part 3 and 4 is in index.js and sparktest.py
